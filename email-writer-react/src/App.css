@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", "Roboto", sans-serif;
+
+  /* NEW GRADIENT */
+  background: linear-gradient(135deg, #001f54, #003f87, #bcd4f6, #ffffff);
+  background-attachment: fixed;
+
+  color: #222;
+}
+
+
+
+button {
+transition: 0.2s ease;
+}
+button:hover {
+opacity: 0.9;
+}
+
+
+.card {
+background: rgba(255, 255, 255, 0.85);
+backdrop-filter: blur(14px);
+-webkit-backdrop-filter: blur(14px);
+border-radius: 20px;
+padding: 28px;
+box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+margin-bottom: 24px;
+transition: 0.25s ease;
+}
+.card:hover {
+transform: translateY(-3px);
+box-shadow: 0 12px 32px rgba(0, 0, 0, 0.22);
+}
+
+
+.priority-chip {
+display: inline-block;
+padding: 4px 10px;
+border-radius: 8px;
+font-size: 12px;
+font-weight: 600;
+color: white;
+}
+.priority-high {
+background: #d32f2f;
+}
+.priority-medium {
+background: #f9a825;
+}
+.priority-low {
+background: #388e3c;
+}
+.menu-btn {
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  background:#8e9dfa;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.menu-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  background: #6640ff;
+}
